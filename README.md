@@ -1,26 +1,29 @@
+# About
+
+
+
 <!-- Tab links -->
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Curriculum')">Curriculum Vitae</button>
-  <button class="tablinks" onclick="openCity(event, 'Research')">Research and Publications</button>
-    <button class="tablinks" onclick="openCity(event, 'Personal')">Personal interests</button>
+  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
 </div>
 
 <!-- Tab content -->
-<div id="Curriculum Vitae" class="tabcontent">
-  <h3>Curriculum Vitae</h3>
-  <p>This is what I have done</p>
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
 </div>
 
-<div id="Research" class="tabcontent">
-  # Research and publications
-  # Research topics
-  1. Interplanetary trajectory design and optimization
-  2. Celestial mechanics
-  3. Machine Learning
-  # Publications
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p>
 </div>
 
-# About
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
 
 
 
