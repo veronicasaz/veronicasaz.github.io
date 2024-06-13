@@ -6,7 +6,7 @@
 </div>
 
 <!-- Tab content -->
-<div id="Curriculum" class="tabcontent">
+<div id="Curriculum Vitae" class="tabcontent">
   <h3>Curriculum Vitae</h3>
   <p>This is what I have done</p>
 </div>
@@ -18,7 +18,6 @@
   2. Celestial mechanics
   3. Machine Learning
   # Publications
-  
 </div>
 
 # About
