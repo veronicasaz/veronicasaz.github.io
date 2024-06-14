@@ -1,4 +1,3 @@
-Copy code
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,15 +9,25 @@ Copy code
             font-family: Arial, sans-serif;
             background-color: #f0f8ff;
             color: #333;
+            margin: 0;
+            padding: 0;
         }
         .container {
-            width: 80%;
+            width: 90%;
+            max-width: 1200px;
             margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         header {
             text-align: center;
             padding: 20px 0;
             background-color: #4682b4;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
             color: white;
         }
         nav {
