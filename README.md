@@ -16,7 +16,7 @@
 
     .container {
       width: 98%;
-      max-width: 1200px;
+      max-width: 1500px;
       margin: 0 auto;
       padding: 0px;
       background-color: #DBF9DB;
@@ -188,7 +188,8 @@
     </nav>
     <div id="CV" class="tab-content">
       <h2>Curriculum Vitae</h2>
-      <p><a ref="https://www.linkedin.com/in/veronica-saz-ulibarrena/"> Linkedin</a>
+      <p><a ref="https://www.linkedin.com/in/veronica-saz-ulibarrena/">Linkedin</a>
+      <br>
       <a href="Curriculum Vitae.pdf" download>CurriculumVitae.pdf</a>
       </p>
     </div>
