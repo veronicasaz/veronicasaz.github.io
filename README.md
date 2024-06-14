@@ -188,7 +188,9 @@
     </nav>
     <div id="CV" class="tab-content">
       <h2>Curriculum Vitae</h2>
-      <p>Here you can add your curriculum vitae details.</p>
+      <p><a ref="https://www.linkedin.com/in/veronica-saz-ulibarrena/"> Linkedin</a>
+      <a href="Curriculum Vitae.pdf" download>CurriculumVitae.pdf</a>
+      </p>
     </div>
     <div id="Research" class="tab-content">
       <h1><i>Research</i></h1>
@@ -243,6 +245,8 @@
       <img src="your-image-url.jpg" alt="Your Image" style="max-width: 100%; height: auto;">
     </div>
     <div id="Chapters" class="tab-content">
+        <a href="HybridIntegration_Veronica_Revised2.pdf" download>Chapter 1</a>
+        <a href="aanda.pdf" download>Chapter 3</a>
     </div>
   </div>
 
