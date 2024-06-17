@@ -241,7 +241,6 @@
       <p> Here, I provide a summary of those and links to the corresponding publications</p>
       <br>
       <hr>
-      <br>
       <h3>Ph.D. Thesis</h3>
       <p>
       <i>Solving the gravitational N-body problem using Machine Learning</i>.
@@ -269,7 +268,6 @@
       </ol>
       <br>
       <hr>
-      <br>
       <h3>Master's Thesis</h3>
       <p>
       <i>Low-Thrust Interplanetary Trajectory Optimization Using Pre-Trained Artificial Neural Network Surrogates, 2021. </i>
@@ -289,7 +287,6 @@
       </p>
       <br>
       <hr>
-      <br>
       <h3>Bachelor's Thesis</h3>
     </div>
     <div id="Personal" class="tab-content">
