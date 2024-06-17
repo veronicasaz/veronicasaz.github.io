@@ -210,6 +210,10 @@
   <div class="container">
     <header>
       <h1><i>Veronica Saz Ulibarrena</i></h1>
+      <div class="toggle-container">
+        <input type="checkbox" id="darkModeToggle">
+        <label for="darkModeToggle"></label>
+      </div>
     </header>
     <nav>
       <a href="javascript:void(0);" class="tab-link" onclick="openTab(event, 'Personal')">About me</a>
