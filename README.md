@@ -64,7 +64,7 @@
     }
 
     .toggle-container label::before {
-      content: "";
+      content: "Dark Mode";
       position: absolute;
       top: 2px;
       left: 2px;
@@ -207,6 +207,11 @@
 
 
 <body>
+<div class="toggle-container label">
+    <input type="checkbox" id="darkModeToggle">
+    <label for="darkModeToggle">Dark Mode</label>
+  </div>  
+
   <div class="container">
     <header>
       <h1><i>Veronica Saz Ulibarrena</i></h1>
