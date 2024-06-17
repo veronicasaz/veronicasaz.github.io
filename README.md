@@ -227,10 +227,10 @@
       <br>
       <p>
       Curriculum Vitae available upon request.
-      <!-- <a href="https://www.linkedin.com/in/veronica-saz-ulibarrena/">Linkedin</a> -->
+      <br>
+      <a href="https://www.linkedin.com/in/veronica-saz-ulibarrena/">Linkedin/veronica-saz-ulibarrena/</a>
       <br>
       <!-- <a href="Curriculum Vitae.pdf" download>CurriculumVitae.pdf</a> -->
-      CV
       </p>
     </div>
     <div id="Research" class="tab-content">
@@ -242,7 +242,31 @@
       <br>
       <hr>
       <br>
-      <h3>Bachelor's Thesis</h3>
+      <h3>Ph.D. Thesis</h3>
+      <p>
+      <i>Solving the gravitational N-body problem using Machine Learning</i>.
+      </p>
+      <ol>
+          <br>
+        <li><b>Introduction</b>: <i>Applications of Machine Learning for the simulation of celestial mechanics.</i></li>
+        <li>
+        <b>Chapter 1</b>: Saz Ulibarrena<i> et al., A hybrid approach for solving the gravitational N-body problem with Artificial Neural Networks, 2024.</i> 
+        <a href="https://www.sciencedirect.com/science/article/pii/S0021999123006915">Link to publication</a>
+        </li>
+        <li><b>Chapter 2</b>: Horn <i> et al., A Generalized Framework of Neural Networks for Hamiltonian Systems, 2024.</i> <a href="">Link to publication</a></li>
+        <li><b>Chapter 3</b>: Saz Ulibarrena<i> et al., Physics-based Reinforcement Learning for the integration of the
+        chaotic gravitational N-body problem, 2024.</i>
+        <a href="https://www.sciencedirect.com/science/article/pii/S0021999123006915">Link to publication</a>
+        </li>        
+        <li><b>Chapter 4</b>:</li>
+        <li><b>Others</b>: 
+        <br>
+          Beckers <i>et al., Individual chaotic behaviour of the S-stars in the Galactic centre, 2024.</i>
+        <a href= "https://www.aanda.org/articles/aa/abs/2024/05/aa48361-23/aa48361-23.html">Link to publication</a>
+        <br>
+          Horn <i>et al. Structure-Preserving Neural Networks for the N-body Problem, 2022. </i><a href= "https://research.tue.nl/en/publications/structure-preserving-neural-networks-for-the-n-body-problem">Link to publication</a>
+        </li>
+      </ol>
       <br>
       <hr>
       <br>
@@ -266,34 +290,14 @@
       <br>
       <hr>
       <br>
-      <h3>Ph.D. Thesis</h3>
-      <p>
-      <i>Solving the gravitational N-body problem using Machine Learning</i>.
-      </p>
-      <ol>
-          <br>
-        <li><b>Introduction</b>: <i>Applications of Machine Learning for the simulation of celestial mechanics.</i></li>
-        <li>
-        <b>Chapter 1</b>: Saz Ulibarrena<i> et al., A hybrid approach for solving the gravitational N-body problem with Artificial Neural Networks, 2024.</i> 
-        <a href="https://www.sciencedirect.com/science/article/pii/S0021999123006915">Link to publication</a>
-        </li>
-        <li><b>Chapter 2</b>: Horn <i> et al., A Generalized Framework of Neural Networks for Hamiltonian Systems, 2024.</i> <a href="">Link to publication</a></li>
-        <li><b>Chapter 3</b>: Saz Ulibarrena<i> et al., Physics-based Reinforcement Learning for the integration of the
-        chaotic gravitational N-body problem, 2024.</i>
-        <a href="https://www.sciencedirect.com/science/article/pii/S0021999123006915">Link to publication</a>
-        </li>        
-        <li><b>Chapter 4</b>:</li>
-        <li><b>Others</b>: 
-          Beckers <i>et al., Individual chaotic behaviour of the S-stars in the Galactic centre, 2024.</i>
-        <a href= "https://www.aanda.org/articles/aa/abs/2024/05/aa48361-23/aa48361-23.html">Link to publication</a>
-          Horn et  al. Structure-Preserving Neural Networks for the N-body Problem, 2022.https://research.tue.nl/en/publications/structure-preserving-neural-networks-for-the-n-body-problem">Link to publication</a>
-        </li>
-      </ol>
+      <h3>Bachelor's Thesis</h3>
     </div>
     <div id="Personal" class="tab-content">
       <h2>About me</h2>
       <br>
-      <p>Here you can add your personal information.</p>
+      <p>
+      Here you can add your personal information.
+      </p>
       <img src="your-image-url.jpg" alt="Your Image" style="max-width: 100%; height: auto;">
     </div>
     <div id="Chapters" class="tab-content">
