@@ -235,11 +235,9 @@
     </div>
     <div id="Research" class="tab-content">
       <h1><i>Research</i></h1>
-      <br>
       <p>My research has been focused on the fields of interplanetary trajectory optimization (bachelor's and Master's thesis), 
         celestial dynamics and chaotic problems (Ph.D.) and Machine Learning (Master's thesis and Ph.D.). </p>
       <p> Here, I provide a summary of those and links to the corresponding publications</p>
-      <br>
       <hr>
       <h3>Ph.D. Thesis</h3>
       <p>
@@ -266,7 +264,6 @@
           Horn <i>et al. Structure-Preserving Neural Networks for the N-body Problem, 2022. </i><a href= "https://research.tue.nl/en/publications/structure-preserving-neural-networks-for-the-n-body-problem">Link to publication</a>
         </li>
       </ol>
-      <br>
       <hr>
       <h3>Master's Thesis</h3>
       <p>
@@ -285,7 +282,6 @@
       use of pre-training is analyzed to improve the performance of the network without increasing the size of the training
       database.
       </p>
-      <br>
       <hr>
       <h3>Bachelor's Thesis</h3>
     </div>
