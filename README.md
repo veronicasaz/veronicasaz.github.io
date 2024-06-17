@@ -225,7 +225,9 @@
     <div id="CV" class="tab-content">
       <h2>Curriculum Vitae</h2>
       <br>
-      <p><a href="https://www.linkedin.com/in/veronica-saz-ulibarrena/">Linkedin</a>
+      <p>
+      Curriculum Vitae available upon request.
+      <!-- <a href="https://www.linkedin.com/in/veronica-saz-ulibarrena/">Linkedin</a> -->
       <br>
       <!-- <a href="Curriculum Vitae.pdf" download>CurriculumVitae.pdf</a> -->
       CV
