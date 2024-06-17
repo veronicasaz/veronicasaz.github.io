@@ -1,4 +1,3 @@
-
 <html lang="en">
 
 <head>
@@ -6,36 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Personal Webpage</title>
   <style>
-    body {
-      font-family: Serif, sans-serif;
-      background-color: #DBF9DB;
-      color: #333;
+    /* CSS Reset */
+    * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #DBF9DB;
+      color: #333;
     }
 
     .container {
-      width: 98%;
-      max-width: 2500px;
-      margin: 0 auto;
-      padding: 0px;
-      background-color: #DBF9DB;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 95%;
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
     }
 
     header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      text-align: center;
       padding: 20px;
       background: linear-gradient(90deg, #4682b4, #DBF9DB);
+      border-radius: 10px 10px 0 0;
       color: white;
     }
 
     header h1 {
       margin: 0;
-      color: white;
+      font-size: 2em;
     }
 
     .toggle-container {
@@ -51,29 +56,30 @@
       cursor: pointer;
       position: relative;
       display: inline-block;
-      width: 38px;
-      height: 22px;
+      width: 40px;
+      height: 24px;
       background-color: #ccc;
       border-radius: 34px;
+      transition: background-color 0.3s;
     }
 
     .toggle-container label::before {
       content: "";
       position: absolute;
-      top: 1px;
-      left: 1px;
+      top: 2px;
+      left: 2px;
       width: 20px;
       height: 20px;
       background-color: white;
       border-radius: 50%;
-      transition: 0.4s;
+      transition: 0.3s;
     }
 
-    .toggle-container input:checked+label::before {
-      transform: translateX(15px);
+    .toggle-container input:checked + label::before {
+      transform: translateX(16px);
     }
 
-    .toggle-container input:checked+label {
+    .toggle-container input:checked + label {
       background-color: #2196F3;
     }
 
@@ -81,7 +87,8 @@
       display: flex;
       justify-content: center;
       background-color: #DBE9FA;
-      padding: 10px 0;
+      padding: 15px 0;
+      border-radius: 0 0 10px 10px;
     }
 
     nav a {
@@ -89,10 +96,11 @@
       text-decoration: none;
       color: #033E3E;
       font-weight: bold;
+      transition: color 0.3s;
     }
 
     nav a:hover {
-      text-decoration: underline;
+      color: #4682b4;
     }
 
     .tab-content {
@@ -102,10 +110,21 @@
       border: 3px solid #DBE9FA;
       color: #033E3E;
       border-top: none;
+      border-radius: 0 0 10px 10px;
     }
 
     .tab-content.active {
       display: block;
+      animation: fadeIn 0.5s;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
     }
 
     .dark-mode {
@@ -135,42 +154,59 @@
       background-color: #2C3539;
       box-shadow: none;
     }
+
     hr {
-    border: none;
-    border-top: 3px double #333;
-    color: #333;
-    overflow: visible;
-    text-align: center;
-    height: 5px;
+      border: none;
+      border-top: 3px double #333;
+      color: #333;
+      overflow: visible;
+      text-align: center;
+      height: 5px;
     }
 
+    a {
+      color: #4682b4;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .tab-content ol {
+      margin-left: 30px;
+    }
   </style>
   <script>
     function openTab(event, tabName) {
-            var i, tabContent, tabLinks;
-            tabContent = document.getElementsByClassName("tab-content");
-            for (i = 0; i < tabContent.length; i++) {
-                tabContent[i].style.display = "none";
-            }
-            tabLinks = document.getElementsByTagName("a");
-            for (i = 0; i < tabLinks.length; i++) {
-                tabLinks[i].className = tabLinks[i].className.replace(" active", "");
-            }
-            document.getElementById(tabName).style.display = "block";
-            event.currentTarget.className += " active";
-        }
-        function toggleDarkMode() {
-            document.body.classList.toggle("dark-mode");
-        }
-        document.addEventListener("DOMContentLoaded", function() {
-            document.getElementById("defaultOpen").click();
-            document.getElementById("darkModeToggle").addEventListener("change", toggleDarkMode);
-        });
+      var i, tabContent, tabLinks;
+      tabContent = document.getElementsByClassName("tab-content");
+      for (i = 0; i < tabContent.length; i++) {
+        tabContent[i].classList.remove("active");
+      }
+      tabLinks = document.getElementsByTagName("a");
+      for (i = 0; i < tabLinks.length; i++) {
+        tabLinks[i].className = tabLinks[i].className.replace(" active", "");
+      }
+      document.getElementById(tabName).classList.add("active");
+      event.currentTarget.className += " active";
+    }
+
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark-mode");
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      document.getElementById("defaultOpen").click();
+      document.getElementById("darkModeToggle").addEventListener("change", toggleDarkMode);
+    });
   </script>
 </head>
 
-<body>
 
+
+
+<body>
   <div class="container">
     <header>
       <h1><i>Veronica Saz Ulibarrena</i></h1>
@@ -188,18 +224,26 @@
     </nav>
     <div id="CV" class="tab-content">
       <h2>Curriculum Vitae</h2>
+      <br>
       <p><a href="https://www.linkedin.com/in/veronica-saz-ulibarrena/">Linkedin</a>
       <br>
-      <a href="Curriculum Vitae.pdf" download>CurriculumVitae.pdf</a>
+      <!-- <a href="Curriculum Vitae.pdf" download>CurriculumVitae.pdf</a> -->
+      CV
       </p>
     </div>
     <div id="Research" class="tab-content">
       <h1><i>Research</i></h1>
+      <br>
       <p>My research has been focused on the fields of interplanetary trajectory optimization (bachelor's and Master's thesis), 
         celestial dynamics and chaotic problems (Ph.D.) and Machine Learning (Master's thesis and Ph.D.). </p>
       <p> Here, I provide a summary of those and links to the corresponding publications</p>
-      <h3>Bachelor's Thesis</h3>
+      <br>
       <hr>
+      <br>
+      <h3>Bachelor's Thesis</h3>
+      <br>
+      <hr>
+      <br>
       <h3>Master's Thesis</h3>
       <p>
       <i>Low-Thrust Interplanetary Trajectory Optimization Using Pre-Trained Artificial Neural Network Surrogates, 2021. </i>
@@ -217,18 +261,21 @@
       use of pre-training is analyzed to improve the performance of the network without increasing the size of the training
       database.
       </p>
+      <br>
       <hr>
+      <br>
       <h3>Ph.D. Thesis</h3>
       <p>
       <i>Solving the gravitational N-body problem using Machine Learning</i>.
       </p>
       <ol>
+          <br>
         <li><b>Introduction</b>: <i>Applications of Machine Learning for the simulation of celestial mechanics.</i></li>
         <li>
         <b>Chapter 1</b>: Saz Ulibarrena<i> et al., A hybrid approach for solving the gravitational N-body problem with Artificial Neural Networks, 2024.</i> 
         <a href="https://www.sciencedirect.com/science/article/pii/S0021999123006915">Link to publication</a>
         </li>
-        <li><b>Chapter 2</b>:</li>
+        <li><b>Chapter 2</b>: Horn <i> et al., A Generalized Framework of Neural Networks for Hamiltonian Systems, 2024.</i> <a href="">Link to publication</a></li>
         <li><b>Chapter 3</b>: Saz Ulibarrena<i> et al., Physics-based Reinforcement Learning for the integration of the
         chaotic gravitational N-body problem, 2024.</i>
         <a href="https://www.sciencedirect.com/science/article/pii/S0021999123006915">Link to publication</a>
@@ -237,17 +284,22 @@
         <li><b>Others</b>: 
           Beckers <i>et al., Individual chaotic behaviour of the S-stars in the Galactic centre, 2024.</i>
         <a href= "https://www.aanda.org/articles/aa/abs/2024/05/aa48361-23/aa48361-23.html">Link to publication</a>
+          Horn et  al. Structure-Preserving Neural Networks for the N-body Problem, 2022.https://research.tue.nl/en/publications/structure-preserving-neural-networks-for-the-n-body-problem">Link to publication</a>
         </li>
       </ol>
     </div>
     <div id="Personal" class="tab-content">
       <h2>About me</h2>
+      <br>
       <p>Here you can add your personal information.</p>
       <img src="your-image-url.jpg" alt="Your Image" style="max-width: 100%; height: auto;">
     </div>
     <div id="Chapters" class="tab-content">
+    <p>
         <a href="HybridIntegration_Veronica_Revised2.pdf" download>Chapter 1</a>
+        <br>
         <a href="aanda.pdf" download>Chapter 3</a>
+        </p>
     </div>
   </div>
 
