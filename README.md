@@ -207,18 +207,9 @@
 
 
 <body>
-<div class="toggle-container label">
-    <input type="checkbox" id="darkModeToggle">
-    <label for="darkModeToggle">Dark Mode</label>
-  </div>  
-
   <div class="container">
     <header>
       <h1><i>Veronica Saz Ulibarrena</i></h1>
-      <div class="toggle-container">
-        <input type="checkbox" id="darkModeToggle">
-        <label for="darkModeToggle"></label>
-      </div>
     </header>
     <nav>
       <a href="javascript:void(0);" class="tab-link" onclick="openTab(event, 'Personal')">About me</a>
@@ -232,7 +223,6 @@
       <br>
       <p>
       Curriculum Vitae available upon request.
-      <br>
       <a href="https://www.linkedin.com/in/veronica-saz-ulibarrena/">Linkedin/veronica-saz-ulibarrena/</a>
       <br>
       <!-- <a href="Curriculum Vitae.pdf" download>CurriculumVitae.pdf</a> -->
@@ -292,7 +282,6 @@
     </div>
     <div id="Personal" class="tab-content">
       <h2>About me</h2>
-      <br>
       <p>
       Here you can add your personal information.
       </p>
