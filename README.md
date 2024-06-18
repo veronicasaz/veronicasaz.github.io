@@ -220,14 +220,13 @@
       </div>
     </header>
     <nav>
-      <a href="javascript:void(0);" class="tab-link" onclick="openTab(event, 'Personal')">About me</a>
-      <a href="javascript:void(0);" class="tab-link" onclick="openTab(event, 'CV')" id="defaultOpen">Curriculum
-        Vitae</a>
-      <a href="javascript:void(0);" class="tab-link" onclick="openTab(event, 'Research')">Research</a>
-      <a href="javascript:void(0);" class="tab-link" onclick="openTab(event, 'Chapters')">Ph.D. Chapters</a>
+      <a href="javascript:void(0);" class="tab-link" onclick="openTab(event, 'Personal')">ABOUT ME</a>
+      <a href="javascript:void(0);" class="tab-link" onclick="openTab(event, 'CV')" id="defaultOpen">CURRICULUM VITAE</a>
+      <a href="javascript:void(0);" class="tab-link" onclick="openTab(event, 'Research')">RESEARCH</a>
+      <a href="javascript:void(0);" class="tab-link" onclick="openTab(event, 'Chapters')">PH.D CHAPTERS</a>
     </nav>
     <div id="CV" class="tab-content">
-      <h2>Curriculum Vitae</h2>
+      <h2>CURRICULUM VITAE</h2>
       <br>
       <p>
       <!-- Curriculum Vitae available upon request. -->
@@ -238,7 +237,7 @@
       </p>
     </div>
     <div id="Research" class="tab-content">
-      <h1><i>Research</i></h1>
+      <h1><i>RESEARCH</i></h1>
       <p>My research has been focused on the fields of interplanetary trajectory optimization (bachelor's and Master's thesis), 
         celestial dynamics and chaotic problems (Ph.D.) and Machine Learning (Master's thesis and Ph.D.). </p>
       <p> Here, I provide a summary of those and links to the corresponding publications</p>
@@ -290,7 +289,7 @@
       <h3>Bachelor's Thesis</h3>
     </div>
     <div id="Personal" class="tab-content">
-      <h2>About me</h2>
+      <h2>ABOUT ME</h2>
       <p>
       Here you can add your personal information.
       </p>
