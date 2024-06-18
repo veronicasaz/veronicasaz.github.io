@@ -46,10 +46,14 @@
     .toggle-container {
       display: flex;
       align-items: center;
+      margin: 20px;
     }
 
     .toggle-container input[type="checkbox"] {
       display: none;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
     }
 
     .toggle-container label {
@@ -76,7 +80,7 @@
     }
 
     .toggle-container input:checked + label::before {
-      transform: translateX(16px);
+      transform: translateX(26px);
     }
 
     .toggle-container input:checked + label {
@@ -226,10 +230,11 @@
       <h2>Curriculum Vitae</h2>
       <br>
       <p>
-      Curriculum Vitae available upon request.
-      <a href="https://www.linkedin.com/in/veronica-saz-ulibarrena/">Linkedin/veronica-saz-ulibarrena/</a>
+      <!-- Curriculum Vitae available upon request. -->
+      <i class="fa fa-linkedin-square" style="font-size:48px;color:red"></i>
+      <a href="https://www.linkedin.com/in/veronica-saz-ulibarrena/">veronica-saz-ulibarrena/</a>
       <br>
-      <!-- <a href="Curriculum Vitae.pdf" download>CurriculumVitae.pdf</a> -->
+      <a href="Curriculum Vitae.pdf" download>CurriculumVitae.pdf</a>
       </p>
     </div>
     <div id="Research" class="tab-content">
