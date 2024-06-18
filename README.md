@@ -14,7 +14,8 @@
 
     body {
       font-family: 'Arial', sans-serif;
-      background-color: #DBF9DB;
+      background: url('your-background-image-url.jpg') no-repeat center center fixed;
+      background-size: cover;
       color: #333;
     }
 
@@ -23,7 +24,7 @@
       max-width: 1200px;
       margin: 20px auto;
       padding: 20px;
-      background-color: #fff;
+      background-color: rgba(255, 255, 255, 0.8);
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
       border-radius: 10px;
     }
@@ -33,7 +34,7 @@
       justify-content: space-between;
       align-items: center;
       padding: 20px;
-      background: linear-gradient(90deg, #4682b4, #DBF9DB);
+      background: linear-gradient(90deg, rgba(70, 130, 180, 0.8), rgba(219, 249, 219, 0.8));
       border-radius: 10px 10px 0 0;
       color: white;
     }
@@ -51,9 +52,6 @@
 
     .toggle-container input[type="checkbox"] {
       display: none;
-      flex-direction: column;
-      align-items: center;
-      margin: 20px;
     }
 
     .toggle-container label {
@@ -90,7 +88,7 @@
     nav {
       display: flex;
       justify-content: center;
-      background-color: #DBE9FA;
+      background-color: rgba(219, 233, 250, 0.8);
       padding: 15px 0;
       border-radius: 0 0 10px 10px;
     }
@@ -110,8 +108,8 @@
     .tab-content {
       display: none;
       padding: 20px;
-      background-color: #f0f8ff;
-      border: 3px solid #DBE9FA;
+      background-color: rgba(240, 248, 255, 0.8);
+      border: 3px solid rgba(219, 233, 250, 0.8);
       color: #033E3E;
       border-top: none;
       border-radius: 0 0 10px 10px;
@@ -137,11 +135,11 @@
     }
 
     .dark-mode header {
-      background: linear-gradient(90deg, #222, #3B9C9C);
+      background: linear-gradient(90deg, rgba(34, 34, 34, 0.8), rgba(59, 156, 156, 0.8));
     }
 
     .dark-mode nav {
-      background-color: #3B9C9C;
+      background-color: rgba(59, 156, 156, 0.8);
     }
 
     .dark-mode nav a {
@@ -149,13 +147,13 @@
     }
 
     .dark-mode .tab-content {
-      background-color: #2C3539;
-      border-color: #666;
+      background-color: rgba(44, 53, 57, 0.8);
+      border-color: rgba(102, 102, 102, 0.8);
       color: white;
     }
 
     .dark-mode .container {
-      background-color: #2C3539;
+      background-color: rgba(44, 53, 57, 0.8);
       box-shadow: none;
     }
 
@@ -188,12 +186,12 @@
       for (i = 0; i < tabContent.length; i++) {
         tabContent[i].classList.remove("active");
       }
-      tabLinks = document.getElementsByTagName("a");
+      tabLinks = document.getElementsByClassName("tab-link");
       for (i = 0; i < tabLinks.length; i++) {
-        tabLinks[i].className = tabLinks[i].className.replace(" active", "");
+        tabLinks[i].classList.remove("active");
       }
       document.getElementById(tabName).classList.add("active");
-      event.currentTarget.className += " active";
+      event.currentTarget.classList.add("active");
     }
 
     function toggleDarkMode() {
@@ -225,9 +223,15 @@
       <a href="javascript:void(0);" class="tab-link" onclick="openTab(event, 'Research')">RESEARCH</a>
       <a href="javascript:void(0);" class="tab-link" onclick="openTab(event, 'Chapters')">PH.D CHAPTERS</a>
     </nav>
+     <div id="Personal" class="tab-content">
+      <h2>ABOUT ME</h2>
+      <p>
+      Here you can add your personal information.
+      </p>
+      <img src="your-image-url.jpg" alt="Your Image" style="max-width: 100%; height: auto;">
+    </div>
     <div id="CV" class="tab-content">
       <h2>CURRICULUM VITAE</h2>
-      <br>
       <p>
       <!-- Curriculum Vitae available upon request. -->
       <i class="fa fa-linkedin-square" style="font-size:48px;color:red"></i>
@@ -288,13 +292,7 @@
       <hr>
       <h3>Bachelor's Thesis</h3>
     </div>
-    <div id="Personal" class="tab-content">
-      <h2>ABOUT ME</h2>
-      <p>
-      Here you can add your personal information.
-      </p>
-      <img src="your-image-url.jpg" alt="Your Image" style="max-width: 100%; height: auto;">
-    </div>
+   
     <div id="Chapters" class="tab-content">
     <p>
         <a href="HybridIntegration_Veronica_Revised2.pdf" download>Chapter 1</a>
