@@ -19,10 +19,14 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html", title: Home}
   - {file: "README.md", title: Thesis Chapters}
 
+linkedin_badge: |
+  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+  <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="{PROFILENAME}" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://ca.linkedin.com/in/{PROFILENAME}?trk=profile-badge">{YOUR NAME}</a></div>
+  
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:veronica.saz.ulibarrena@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/veronicasaz"}
-  - {title: Linkedin, icon: linkedin, url: "https://www.linkedin.com/in/veronica-saz-ulibarrena/"}
+  - {title: Linkedin, icon: site.linkedin_badge, url: "https://www.linkedin.com/in/veronica-saz-ulibarrena/"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
