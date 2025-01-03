@@ -17,7 +17,7 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html", title: "Home"}
-  - {file: "index2.html", title: "Publications"}
+  - {file: "Publications.md", title: "Publications"}
 
 linkedin_badge: |
   <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
