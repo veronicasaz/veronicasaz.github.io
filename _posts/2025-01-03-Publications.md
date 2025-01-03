@@ -4,7 +4,7 @@ layout: post
 ---
 
 
-## Published
+### Published
 
 * *Structure-Preserving neural networks for the n-body problem*, P.Horn, **V. Saz Ulibarrena**, B.Koren, S. Portegies Zwart, *8th European congress on Computational Methods in Applied Sciences and Engineering, ECCOMAS*, 2022.
   
@@ -16,7 +16,7 @@ layout: post
 
  
 ---
-## Submitted for publication
+### Submitted for publication
 * *Physics-based Reinforcement Learning for the integration of the chaotic gravitational N-body problem*, **V. Saz Ulibarrena**, S. Portegies Zwart, *Communications in Nonlinear Science and Numerical Simulation*.
 
 
