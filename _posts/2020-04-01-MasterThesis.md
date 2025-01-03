@@ -5,7 +5,7 @@ layout: post
 categories: media
 ---
 
-![Master Thesis Cover](masterthesiscover.png)
+![Master Thesis Cover](masterthesiscover.png.png)
 
 [Link to thesis](https://repository.tudelft.nl/record/uuid:09c8d317-4f4f-4cb9-9778-bc77b1dd8e59)
 
