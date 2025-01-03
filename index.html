@@ -3,10 +3,9 @@ layout: default
 title: "Research"
 ---
 
-Thesis Chapters:
-- [Full thesis](assets/pdfs/introduction-to-html.pdf)
-- [Chapter 1: Introduction](assets/pdfs/advanced-css-techniques.pdf)
-- [Chapter 2: A hybrid approach...](assets/pdfs/javascript-basics.pdf)
-- [Chapter 3: ](assets/pdfs/web-development-tips.pdf)
-- [Chapter 4: ](assets/pdfs/web-development-tips.pdf)
-- [Chapter 5: ](assets/pdfs/web-development-tips.pdf)
+{% if site.show_excerpts %}
+  {% include home.html %}
+{% else %}
+  {% include archive.html title="Posts" %}
+{% endif %}
+
