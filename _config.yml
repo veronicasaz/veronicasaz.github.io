@@ -8,7 +8,7 @@ date_format: "%B %d, %Y"
 
 # Layout
 
-show_excerpts: false        # show article excerpts on the home page
+show_excerpts: true        # show article excerpts on the home page
 show_frame: true           # adds a gray frame to the site
 show_sidebar: false        # show a sidebar instead of the usual header
 minimal: false             # use a dark header
@@ -26,7 +26,7 @@ linkedin_badge: |
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:veronica.saz.ulibarrena@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/veronicasaz"}
-  - {title: Linkedin, icon: site.linkedin_badge, url: "https://www.linkedin.com/in/veronica-saz-ulibarrena/"}
+  - {title: Linkedin, icon: linkedin, url: "https://www.linkedin.com/in/veronica-saz-ulibarrena/"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
