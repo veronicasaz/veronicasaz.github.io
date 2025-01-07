@@ -3,7 +3,7 @@ title: "Thesis Chapters"
 layout: post
 ---
 
-Ph.D. Thesis Chapters:
+Ph.D. Thesis Chapters and Bibliography:
 - [Full thesis](Thesis.pdf) *(Not yet available)*
 - [Chapter 1: Introduction](Introduction_v1.pdf)
 - [Chapter 2: A hybrid approach for solving the gravitational *N*-body problem with Artificial Neural Networks](Chapter2.pdf)
