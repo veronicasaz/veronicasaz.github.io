@@ -17,7 +17,7 @@ layout: post
  
 ---
 ### Submitted for publication
-* *Physics-based Reinforcement Learning for the integration of the chaotic gravitational N-body problem*, **V. Saz Ulibarrena**, S. Portegies Zwart, *Communications in Nonlinear Science and Numerical Simulation*.
+* *Reinforcement Learning for Adaptive Time-Stepping in the Chaotic Gravitational Three-Body Problem*, **V. Saz Ulibarrena**, S. Portegies Zwart, *Communications in Nonlinear Science and Numerical Simulation*.
 
 
 
