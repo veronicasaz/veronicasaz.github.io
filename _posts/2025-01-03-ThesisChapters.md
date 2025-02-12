@@ -5,7 +5,6 @@ layout: post
 
 Ph.D. Thesis Chapters and Bibliography:
 - [Full thesis](thesis_docs/Thesis.pdf)
-- HERE
 - [Chapter 1: Introduction](thesis_docs/Introduction.pdf)
 - [Chapter 2: A hybrid approach for solving the gravitational *N*-body problem with Artificial Neural Networks](thesis_docs/Chapter2.pdf)
 - [Chapter 3: A Generalized Framework of Neural Networks for Hamiltonian Systems](thesis_docs/Chapter3.pdf)
