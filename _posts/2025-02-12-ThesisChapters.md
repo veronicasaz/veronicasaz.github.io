@@ -13,4 +13,4 @@ Ph.D. Thesis Chapters and Bibliography:
 - [Bibliography](thesis_docs/bibliography.pdf)
 
 
-(Please access links to chapters from the main page https://veronicasaz.github.io/)
+(Please access links to chapters from the main page https://veronicasaz.github.io/; do not press read more.)
