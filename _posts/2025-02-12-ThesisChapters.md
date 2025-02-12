@@ -11,3 +11,6 @@ Ph.D. Thesis Chapters and Bibliography:
 - [Chapter 4: Reinforcement Learning for Adaptive Time-Stepping in the Chaotic Gravitational Three-Body Problem](thesis_docs/Chapter4.pdf)
 - [Chapter 5: Reinforcement Learning for the Determination of the Bridge Time Step in Cluster Dynamics Simulations](thesis_docs/Chapter5.pdf) 
 - [Bibliography](thesis_docs/bibliography.pdf)
+
+
+(Please access links to chapters from the main page https://veronicasaz.github.io/)
