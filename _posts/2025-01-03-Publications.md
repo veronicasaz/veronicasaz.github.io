@@ -22,7 +22,7 @@ layout: post
 ---
 ### In preparation
 
-* *Reinforcement Learning for the Determination of the Bridge Time Step in Cluster Dynamics Simulations*, **V. Saz Ulibarrena**, S. Portegies Zwart, *Communications in Nonlinear Science and Numerical Simulation*.
+* *Reinforcement Learning for the Determination of the Bridge Time Step in Cluster Dynamics Simulations*, **V. Saz Ulibarrena**, S. Portegies Zwart.
 
 
 
