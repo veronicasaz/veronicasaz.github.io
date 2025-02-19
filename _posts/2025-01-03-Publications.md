@@ -17,7 +17,7 @@ layout: post
 ---
 ### Accepted for publication
 
-* *Reinforcement Learning for Adaptive Time-Stepping in the Chaotic Gravitational Three-Body Problem*, **V. Saz Ulibarrena**, S. Portegies Zwart, *Communications in Nonlinear Science and Numerical Simulation*.
+* *Reinforcement Learning for Adaptive Time-Stepping in the Chaotic Gravitational Three-Body Problem*, **V. Saz Ulibarrena**, S. Portegies Zwart, *Communications in Nonlinear Science and Numerical Simulation*. [Link to publication](https://arxiv.org/abs/2502.12809)
 
 ---
 ### In preparation
