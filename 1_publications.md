@@ -4,8 +4,9 @@ layout: post
 ---
 
 
-[Curriculum Vitae](CV.pdf)
 
+---
+---
 
 ## Ph.D. thesis Chapters
 Ph.D. Thesis Chapters and Bibliography:
@@ -19,9 +20,10 @@ Individual Chapters:
 - [Chapter 5: Reinforcement Learning for the Determination of the Bridge Time Step in Cluster Dynamics Simulations](thesis_docs/Chapter5.pdf) 
 - [Bibliography](thesis_docs/bibliography.pdf)
 
-Link to chapter abstracts
+[Chapter Abstracts](docs/1_1_abstracts.md)
 
-
+---
+---
 
 ## Publications
 ### Published
