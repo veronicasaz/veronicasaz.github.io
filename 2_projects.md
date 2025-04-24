@@ -5,7 +5,7 @@ layout: post
 
 
 ## Master's thesis: 
-![Master Thesis Cover](2_4_docs/2_4_1_masterthesiscover1.png)
+![Master Thesis Cover](docs/2_4_1_masterthesiscover1.png)
 
 [Link to thesis](https://repository.tudelft.nl/record/uuid:09c8d317-4f4f-4cb9-9778-bc77b1dd8e59)
 
