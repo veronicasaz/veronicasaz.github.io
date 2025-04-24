@@ -29,7 +29,7 @@ See [Publication](1_publications.md)
 
 The Saturnian system has been the target of four previous space missions and has generated high scientific interest due to its dynamic atmospheric properties and its many moons, some of which are key targets for the search for habitability. The SIREN mission is designed to study these environments, focusing on three main science goals. Firstly, the mission aims to study Saturn’s atmospheric composition to further understand its formation and evolution. Secondly, it aims to study the Saturnian ring and moon formation and evolution as a proxy for accretion processes in protoplanetary discs. Lastly, the mission will study what chemical processes shape Enceladus' potentially habitable subsurface and surface environment. 
 
-![Albach Schematic](docs/Alpbach_image.png)
+![Albach Schematic](docs/Alpbach_image.png){: height="250" } 
 
 The orbiter will perform multiple flybys of Enceladus at different altitudes crossing the plume to unambiguously characterise its chemical composition as a probe of this moon’s pristine interior material. After that, the orbiter will perform close observations of the A and B rings. The Saturn atmospheric entry probe (ARGO) will carry out measurements during a 90-minute descent to characterize the atmospheric composition down to an altitude of 20 bar. 
 
@@ -38,14 +38,14 @@ See the [Presentation slides](Alpbach_presentation.pdf) and [Report](Alpbach_rep
 ### Post Alpbach: Concurrent Engineering design of a mission to Neptune
 
 
-### Master's thesis: (2020 - 2021)
-![Master Thesis Cover](docs/2_4_1_masterthesiscover1.png)
+### Master's thesis: Low-Thrust Interplanetary Trajectory Optimization Using Pre-Trained Artificial Neural Network Surrogates (2020 - 2021)
+![Master Thesis Cover](docs/2_4_1_masterthesiscover1.png){: height="250" } 
 
 The use of low-thrust propulsion for interplanetary missions requires the implementation of new methods for the preliminary design of their trajectories. This thesis proposes a method using the Monotonic Basin Hopping global optimization algorithm to find feasible trajectories with optimum use of the mass of fuel for the case in which the trajectory is modeled using the Sims-Flanagan transcription method. Due to the large computational time required to find the global optimum, Artificial Neural Networks have been used to predict the objective value and feasibility terms of the local minimum. Therefore, the procedure to set up a working regression Artificial Neural Network is studied as well as its transferability to predict values outside the trained limits and for different missions. In addition to this, the use of pre-training is analyzed to improve the performance of the network without increasing the size of the training database.
 
 [Link to thesis](https://repository.tudelft.nl/record/uuid:09c8d317-4f4f-4cb9-9778-bc77b1dd8e59)
 
-![Master Thesis Cover 2](docs/2_4_2_masterthesiscover2.png){: width="250" } 
+![Master Thesis Cover 2](docs/2_4_2_masterthesiscover2.png){: width="250" } ![Master Thesis Cover 2](docs/2_4_2_masterthesiscover2.png){: width="250" } 
 
 ### Optimization algorithm comparison of a spacecraft trajectory to Mars (2020)
 
