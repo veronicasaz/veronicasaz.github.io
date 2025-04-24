@@ -66,7 +66,7 @@ See the full report with the explanation of the method and a comparison of optim
 ### Python modelling of an offshore turbine system (2020)
 
 ---
-Fun Projects
+# Fun Projects
 ---
 
 ### Couple's Secret Santa (Christmas 2024)
