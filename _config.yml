@@ -17,9 +17,9 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html", title: "Home"}
-  - {file: "projects.md", title: "Projects"}
-  - {file: "publications.md", title: "Education and Publications"}
-  - {file: "CVandMore.md", title: "Personal information"}
+  - {file: "1_publications.md", title: "Education \\and Publications"}
+  - {file: "2_projects.md", title: "Projects"}
+  - {file: "3_CVandMore.md", title: "Personal information"}
 
 
 linkedin_badge: 
