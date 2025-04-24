@@ -14,18 +14,9 @@ layout: post
   
 * *A Generalized Framework of Neural Networks for Hamiltonian Systems*, P. Horn, **V. Saz Ulibarrena**, B. Koren, S. Portegies Zwart, *Journal of Computational Physics, Volume 521, Part 1, January 2025, 113536.* [Link to publication](https://www.sciencedirect.com/science/article/pii/S0021999124007848)
 
----
-### Accepted for publication
-
-* *Reinforcement Learning for Adaptive Time-Stepping in the Chaotic Gravitational Three-Body Problem*, **V. Saz Ulibarrena**, S. Portegies Zwart, *Communications in Nonlinear Science and Numerical Simulation*. [Link to publication](https://arxiv.org/abs/2502.12809)
+* *Reinforcement Learning for Adaptive Time-Stepping in the Chaotic Gravitational Three-Body Problem*, **V. Saz Ulibarrena**, S. Portegies Zwart, *Communications in Nonlinear Science and Numerical Simulation*, Voume 145, June 2025, 108723. [Link to publication](https://www.sciencedirect.com/science/article/pii/S1007570425001340)
 
 ---
 ### In preparation
 
 * *Reinforcement Learning for the Determination of the Bridge Time Step in Cluster Dynamics Simulations*, **V. Saz Ulibarrena**, S. Portegies Zwart.
-
-
-
-
-
-
