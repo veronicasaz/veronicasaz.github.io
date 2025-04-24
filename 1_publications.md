@@ -6,9 +6,9 @@ layout: post
 
 
 ---
+## Ph.D. thesis Chapters
 ---
 
-## Ph.D. thesis Chapters
 Ph.D. Thesis Chapters and Bibliography:
 - [Full thesis](thesis_docs/Thesis.pdf)
 
@@ -23,9 +23,9 @@ Individual Chapters:
 [Chapter Abstracts](docs/1_1_abstracts.md)
 
 ---
+## Publications
 ---
 
-## Publications
 ### Published
 
 * *Structure-Preserving neural networks for the n-body problem*, P.Horn, **V. Saz Ulibarrena**, B.Koren, S. Portegies Zwart, *8th European congress on Computational Methods in Applied Sciences and Engineering, ECCOMAS*, 2022. [Link to publication](https://research.tue.nl/en/publications/structure-preserving-neural-networks-for-the-n-body-problem)

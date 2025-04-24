@@ -4,4 +4,4 @@ layout: post
 ---
 
 
-[Curriculum Vitae](CV.pdf)
+[Curriculum Vitae](docs/CV.pdf)
