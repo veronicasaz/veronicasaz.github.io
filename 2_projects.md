@@ -29,7 +29,7 @@ See [Publication](1_publications.md)
 
 The Saturnian system has been the target of four previous space missions and has generated high scientific interest due to its dynamic atmospheric properties and its many moons, some of which are key targets for the search for habitability. The SIREN mission is designed to study these environments, focusing on three main science goals. Firstly, the mission aims to study Saturn’s atmospheric composition to further understand its formation and evolution. Secondly, it aims to study the Saturnian ring and moon formation and evolution as a proxy for accretion processes in protoplanetary discs. Lastly, the mission will study what chemical processes shape Enceladus' potentially habitable subsurface and surface environment. 
 
-![Albach Schematic](docs/Alpbach_image.png){: height="250" } 
+![Albach Schematic](docs/Alpbach_image.png){: height="150" } 
 
 The orbiter will perform multiple flybys of Enceladus at different altitudes crossing the plume to unambiguously characterise its chemical composition as a probe of this moon’s pristine interior material. After that, the orbiter will perform close observations of the A and B rings. The Saturn atmospheric entry probe (ARGO) will carry out measurements during a 90-minute descent to characterize the atmospheric composition down to an altitude of 20 bar. 
 
@@ -45,10 +45,18 @@ The use of low-thrust propulsion for interplanetary missions requires the implem
 
 [Link to thesis](https://repository.tudelft.nl/record/uuid:09c8d317-4f4f-4cb9-9778-bc77b1dd8e59)
 
-![Master Thesis Cover 2](docs/2_4_2_masterthesiscover2.png){: width="250" } ![Master Thesis Cover 2](docs/2_4_2_masterthesiscover2.png){: width="250" } 
+![Master Thesis Cover 2](docs/2_4_2_masterthesiscover2.png){: width="250" } ![Master Thesis Plot](docs/masterthesisplot.png){: width="250" } 
 
 ### Optimization algorithm comparison of a spacecraft trajectory to Mars (2020)
+A determinant factor in the success of an interplanetary mission is the calculation of the mass of
+fuel that is needed. In order to increase the payload mass that can be carried, the mass of fuel
+must be reduced.
 
+I compared the efficiency of different optimization methods to reduce the mass of fuel required for the transfer while ensuring the constraints are met. 
+
+![Optimization Algorithms](optimizationalgorithms.png){: width="500" }
+
+See the full report with the explanation of the method and a comparison of optimization methods for a simplified version of the problem and a more complex one in [Report](optimization_report.pdf).
 
 ### Astrodynamics libraries (2018 - 2020)
 
