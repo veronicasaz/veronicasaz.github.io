@@ -9,8 +9,11 @@ layout: post
 
 ### Reinforcement Learning
 #### Reinforcement Learning for Adaptive Time-Stepping in the Chaotic Gravitational Three-Body Problem
+We introduced the idea of using reinforcement learning algorithms to choose essential simulation parameters automatically. Here, we extend the idea to a more complex case including multi-scale astrophysical systems. We create a method that balances accuracy and computation time while achieving better results than the current methods. Additionally, we ensure the robustness of the method for long simulations by creating a hybrid method that checks the quality of the reinforcement learning choices. 
 
-See [Publication](1_publications.md)
+If you find it interesting, take a look at the [Publication](1_publications.md).
+
+Also, the code and trained models are publicly available at [Github link](https://github.com/veronicasaz/RL_bridgedCluster).
 
 #### Reinforcement Learning for the Determination of the Bridge Time Step in Cluster Dynamics Simulations
 
@@ -37,11 +40,19 @@ See the [Presentation slides](Alpbach_presentation.pdf) and [Report](Alpbach_rep
 
 ### Post Alpbach: Concurrent Engineering design of a mission to Neptune
 
+As a continuation of the Alpbach workshop, we continued the development of a space mission, this time to Neptune and its Moon, Triton. 
+
+This mission requires a complex trajectory, including a retrograde orbit around Neptune that allows for the mapping of Neptune's atmosphere and magnetic fields. Then, the spacecraft is inserted into a Triton orbit to map its surface to the last details. It is important to take into account the current regulations for spacecraft disposal at the end of the mission. 
+
+Publication coming soon!
+
 
 ### Master's thesis: Low-Thrust Interplanetary Trajectory Optimization Using Pre-Trained Artificial Neural Network Surrogates (2020 - 2021)
 ![Master Thesis Cover](docs/2_4_1_masterthesiscover1.png){: height="250" } 
 
 The use of low-thrust propulsion for interplanetary missions requires the implementation of new methods for the preliminary design of their trajectories. This thesis proposes a method using the Monotonic Basin Hopping global optimization algorithm to find feasible trajectories with optimum use of the mass of fuel for the case in which the trajectory is modeled using the Sims-Flanagan transcription method. Due to the large computational time required to find the global optimum, Artificial Neural Networks have been used to predict the objective value and feasibility terms of the local minimum. Therefore, the procedure to set up a working regression Artificial Neural Network is studied as well as its transferability to predict values outside the trained limits and for different missions. In addition to this, the use of pre-training is analyzed to improve the performance of the network without increasing the size of the training database.
+
+The scripts for this project can be found in [Link to github](https://github.com/veronicasaz/MasterThesis).
 
 [Link to thesis](https://repository.tudelft.nl/record/uuid:09c8d317-4f4f-4cb9-9778-bc77b1dd8e59)
 
@@ -54,11 +65,16 @@ must be reduced.
 
 I compared the efficiency of different optimization methods to reduce the mass of fuel required for the transfer while ensuring the constraints are met. 
 
-![Optimization Algorithms](optimizationalgorithms.png){: width="500" }
+![Optimization Algorithms](docs/optimizationalgorithms.png){: width="500" }
 
-See the full report with the explanation of the method and a comparison of optimization methods for a simplified version of the problem and a more complex one in [Report](optimization_report.pdf).
+See the full report with the explanation of the method and a comparison of optimization methods for a simplified version of the problem and a more complex one in [Report](docs/optimization_report.pdf).
 
 ### Astrodynamics libraries (2018 - 2020)
+My first big Python project was a set of astrodynamics libraries to be used to solve a multitude of problems. It includes scripts for basic astrodynamics calculations, a trajectory class that calculates all orbit parameters from a set of inputs, and numerical integration capabilities. Additionally, the scripts include simple plotting tools. 
+
+[Github link](https://github.com/veronicasaz/AstrodynamicsScripts)
+
+Additionally, I programmed a set of optimization algorithms that can be used to solve trajectory optimization problems. Among those, Evolutionary Algorithms and Monotonic Basin Hopping are some of my favourite. So feel free to also check out my work on a comparison between optimization algorithms for a trajectory to Mars. 
 
 ---
 # Other projects
