@@ -9,4 +9,8 @@ My name is Veronica and I am an aerospace Engineer with (almost) a Ph.D. in comp
 
 I enjoy scientific programming for complex problems such as spacecraft trajectory optimization to very unserious applications (check my algorithm for a couple's Secret Santa).
 
+Feel free to get in touch if you would like to know more about my work or any of my projects!
+
 [Curriculum Vitae](docs/CV.pdf)
+
+
