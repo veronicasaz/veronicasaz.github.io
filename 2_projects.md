@@ -11,8 +11,8 @@ layout: post
 #### Reinforcement Learning for the Determination of the Bridge Time Step in Cluster Dynamics Simulations
 The three-body problem is famously complex. As there is no analytical solution to predict the future state of the system, we rely on numerical simulations. These simulations are approximations, and their accuracy depends on certain simulation parameters. An important one is the time-step size. The smaller this value, the more the integration approximates a continuous solution, and the more accurate the simulation will be. However, reducing the time-step size leads to a larger computational cost of the simulation. 
 
-![Chapter 3](docs/ch3_2.png){: height="150" } 
-![Chapter 3](docs/ch3_1.png){: height="150" } 
+![Chapter 3](docs/chp3_2.png){: height="150" } 
+![Chapter 3](docs/chp3_1.png){: height="150" } 
 
 We want to balance accuracy and computational cost to achieve efficient simulations that still allow us to extract scientific conclusions. To do that, we develop a reinforcement learning algorithm that automatically selects it for you. By doing so, we also allow this time-step parameter to change and adapt to the needs of the simulation to keep the accuracy requirements. Our method achieves better results than any of the current methods.
 
@@ -26,8 +26,8 @@ If you find it interesting, take a look at the [Publication](1_publications.md).
 
 Also, the code and trained models are publicly available at [Github link](https://github.com/veronicasaz/RL_bridgedCluster).
 
-![Chapter 4](docs/ch4_2.png){: height="150" } 
-![Chapter 4](docs/ch4_1.png){: height="150" } 
+![Chapter 4](docs/chp4_2.png){: height="150" } 
+![Chapter 4](docs/chp4_1.png){: height="150" } 
 
 
 ### Physics-informed Neural Networks
@@ -38,8 +38,8 @@ Machine Learning can help with that. If instead of calculating these forces, we 
 
 See [Publication](1_publications.md)
 
-![Chapter 2](docs/ch2_1.png){: height="150" } 
-![Chapter 2](docs/ch2_2.png){: height="150" } 
+![Chapter 2](docs/chp2_1.png){: height="150" } 
+![Chapter 2](docs/chp2_2.png){: height="150" } 
 
 ---
 # Optimization and Astrodynamics
