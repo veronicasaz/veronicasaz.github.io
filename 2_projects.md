@@ -116,6 +116,7 @@ Ok, Christmas is closing in and your family wants to run a Secret Santa. But all
 The results are saved in individual files that can be sent to each pair without the person running the code peaking in.  
 
 Currently the code is very simple and just runs until the constraints are made. 
-![SecretSanta.py](docs/SecretSanta.py)
+
+[SecretSanta.py](docs/SecretSanta.py)
 
 
