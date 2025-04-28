@@ -1,0 +1,14 @@
+---
+title:  "Physics-aware neural networks for large astrophysics problems"
+mathjax: true
+layout: post
+categories: media
+---
+
+#### A hybrid approach for solving the gravitational N-body problem with Artificial Neural Networks (2021-2022)
+The numerical integration of a system of _N_-bodies, the calculation of the mutual forces between bodies can drive the computation time. The computational complexity scales quadratically with the number of bodies. This means that simulating a large system is... expensive. 
+
+Machine Learning can help with that. If instead of calculating these forces, we use neural networks to predict the total acceleration, we can save a lot of computing power. Physics-aware neural networks incorporate some of our physics knowledge into the neural network. In this case, we choose Hamiltonian Neural Networks (HNNs) and apply them to the integration of a planetary system with a large number of asteroids. We find that there are advantages and challenges to the application of HNNs to complex cases such as the gravitational _N_-body problem.
+
+See [Publication](1_publications.md)
+
