@@ -22,6 +22,7 @@ See [Publication](1_publications.md).
 
 #### Reinforcement Learning for Adaptive Time-Stepping in the Chaotic Gravitational Three-Body Problem
 We introduced the idea of using reinforcement learning algorithms to choose essential simulation parameters automatically. Here, we extend the idea to a more complex case, including multi-scale astrophysical systems. We create a method that balances accuracy and computation time while achieving better results than the current methods. Additionally, we ensure the robustness of the method for long simulations by creating a hybrid method that checks the quality of the reinforcement learning choices. 
+
 ![Chapter 4](docs/chp4_2.png){: width="320" } 
 
 If you find it interesting, take a look at the [Publication](1_publications.md).
