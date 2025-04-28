@@ -22,12 +22,12 @@ See [Publication](1_publications.md).
 
 #### Reinforcement Learning for Adaptive Time-Stepping in the Chaotic Gravitational Three-Body Problem
 We introduced the idea of using reinforcement learning algorithms to choose essential simulation parameters automatically. Here, we extend the idea to a more complex case, including multi-scale astrophysical systems. We create a method that balances accuracy and computation time while achieving better results than the current methods. Additionally, we ensure the robustness of the method for long simulations by creating a hybrid method that checks the quality of the reinforcement learning choices. 
+![Chapter 4](docs/chp4_2.png){: width="320" } 
 
 If you find it interesting, take a look at the [Publication](1_publications.md).
 
 Also, the code and trained models are publicly available at [Github link](https://github.com/veronicasaz/RL_bridgedCluster).
 
-![Chapter 4](docs/chp4_2.png){: width="320" } 
 ![Chapter 4](docs/chp4_1.png){: height="120" } 
 
 
@@ -35,11 +35,12 @@ Also, the code and trained models are publicly available at [Github link](https:
 #### A hybrid approach for solving the gravitational N-body problem with Artificial Neural Networks (2021-2022)
 The numerical integration of a system of _N_-bodies, the calculation of the mutual forces between bodies can drive the computation time. The computational complexity scales quadratically with the number of bodies. This means that simulating a large system is... expensive. 
 
+![Chapter 2](docs/ch2_1.png){: width="280" } 
+
 Machine Learning can help with that. If instead of calculating these forces, we use neural networks to predict the total acceleration, we can save a lot of computing power. Physics-aware neural networks incorporate some of our physics knowledge into the neural network. In this case, we choose Hamiltonian Neural Networks (HNNs) and apply them to the integration of a planetary system with a large number of asteroids. We find that there are advantages and challenges to the application of HNNs to complex cases such as the gravitational _N_-body problem.
 
 See [Publication](1_publications.md)
 
-![Chapter 2](docs/ch2_1.png){: width="300" } 
 ![Chapter 2](docs/ch2_2.png){: height="150" } 
 
 ---
