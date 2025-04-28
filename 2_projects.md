@@ -17,6 +17,7 @@ The three-body problem is famously complex. As there is no analytical solution t
 We want to balance accuracy and computational cost to achieve efficient simulations that still allow us to extract scientific conclusions. To do that, we develop a reinforcement learning algorithm that automatically selects it for you. By doing so, we also allow this time-step parameter to change and adapt to the needs of the simulation to keep the accuracy requirements. Our method achieves better results than any of the current methods.
 
 The code is publicly available at [Github link](https://github.com/veronicasaz/ThreeBodyProblem_astronomy) 
+
 See [Publication](1_publications.md)
 
 #### Reinforcement Learning for Adaptive Time-Stepping in the Chaotic Gravitational Three-Body Problem
@@ -26,8 +27,8 @@ If you find it interesting, take a look at the [Publication](1_publications.md).
 
 Also, the code and trained models are publicly available at [Github link](https://github.com/veronicasaz/RL_bridgedCluster).
 
-![Chapter 4](docs/chp4_2.png){: width="300" } 
-![Chapter 4](docs/chp4_1.png){: height="150" } 
+![Chapter 4](docs/chp4_2.png){: width="320" } 
+![Chapter 4](docs/chp4_1.png){: width="320" } 
 
 
 ### Physics-informed Neural Networks
