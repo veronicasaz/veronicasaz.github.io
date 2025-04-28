@@ -11,13 +11,12 @@ layout: post
 #### Reinforcement Learning for the Determination of the Bridge Time Step in Cluster Dynamics Simulations
 The three-body problem is famously complex. As there is no analytical solution to predict the future state of the system, we rely on numerical simulations. These simulations are approximations, and their accuracy depends on certain simulation parameters. An important one is the time-step size. The smaller this value, the more the integration approximates a continuous solution, and the more accurate the simulation will be. However, reducing the time-step size leads to a larger computational cost of the simulation. 
 
-![Chapter 3](docs/chp3_2.png){: width="150" } 
-![Chapter 3](docs/chp3_1.png){: width="150" } 
+![Chapter 3](docs/chp3_2.png){: height="100" } 
+![Chapter 3](docs/chp3_1.png){: height="100" } 
 
 We want to balance accuracy and computational cost to achieve efficient simulations that still allow us to extract scientific conclusions. To do that, we develop a reinforcement learning algorithm that automatically selects it for you. By doing so, we also allow this time-step parameter to change and adapt to the needs of the simulation to keep the accuracy requirements. Our method achieves better results than any of the current methods.
 
 The code is publicly available at [Github link](https://github.com/veronicasaz/ThreeBodyProblem_astronomy) 
-
 See [Publication](1_publications.md)
 
 #### Reinforcement Learning for Adaptive Time-Stepping in the Chaotic Gravitational Three-Body Problem
@@ -27,8 +26,7 @@ If you find it interesting, take a look at the [Publication](1_publications.md).
 
 Also, the code and trained models are publicly available at [Github link](https://github.com/veronicasaz/RL_bridgedCluster).
 
-![Chapter 4](docs/chp4_2.png){: width="50" } 
-
+![Chapter 4](docs/chp4_2.png){: height="100" } 
 ![Chapter 4](docs/chp4_1.png){: height="150" } 
 
 
@@ -103,6 +101,11 @@ Additionally, I programmed a set of optimization algorithms that can be used to 
 ---
 # Fun Projects
 ---
+
+### How would you solve a puzzle with discrete optimization?
+I have this wooden puzzle in which pieces of different shapes fit to form a perfect square. Every time a friend comes to my house and breaks it down to try to solve it and fails, I have to spend hours putting it back together. 
+
+So what if I could program an optimization algorithm to solve it for me? This will be my first attempt at discrete optimization, so any feedback is welcome. Results coming soon. 
 
 ### Couple's Secret Santa (Christmas 2024)
 Ok, Christmas is closing in and your family wants to run a Secret Santa. But all the online programs are made for individual choices. However, your 80-year-old granpa would be a terrible gifter for your 18-year-old cousin, so it makes sense to pair everybody in the family. Let's call it team-Secret Santa. Each pair gets two names to buy presents for, but those people do not necessarily have to be a pair themselves.
