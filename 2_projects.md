@@ -8,6 +8,17 @@ layout: post
 ---
 
 ### Reinforcement Learning
+#### Reinforcement Learning for the Determination of the Bridge Time Step in Cluster Dynamics Simulations
+The three-body problem is famously complex. As there is no analytical solution to predict the future state of the system, we rely on numerical simulations. These simulations are approximations, and their accuracy depends on certain simulation parameters. An important one is the time-step size. The smaller this value, the more the integration approximates a continuous solution, and the more accurate the simulation will be. However, reducing the time-step size leads to a larger computational cost of the simulation. 
+
+![Chapter 3](docs/ch3_2.png){: height="150" } 
+![Chapter 3](docs/ch3_1.png){: height="150" } 
+
+We want to balance accuracy and computational cost to achieve efficient simulations that still allow us to extract scientific conclusions. To do that, we develop a reinforcement learning algorithm that automatically selects it for you. By doing so, we also allow this time-step parameter to change and adapt to the needs of the simulation to keep the accuracy requirements. Our method achieves better results than any of the current methods.
+
+
+See [Publication](1_publications.md)
+
 #### Reinforcement Learning for Adaptive Time-Stepping in the Chaotic Gravitational Three-Body Problem
 We introduced the idea of using reinforcement learning algorithms to choose essential simulation parameters automatically. Here, we extend the idea to a more complex case including multi-scale astrophysical systems. We create a method that balances accuracy and computation time while achieving better results than the current methods. Additionally, we ensure the robustness of the method for long simulations by creating a hybrid method that checks the quality of the reinforcement learning choices. 
 
@@ -15,14 +26,20 @@ If you find it interesting, take a look at the [Publication](1_publications.md).
 
 Also, the code and trained models are publicly available at [Github link](https://github.com/veronicasaz/RL_bridgedCluster).
 
-#### Reinforcement Learning for the Determination of the Bridge Time Step in Cluster Dynamics Simulations
+![Chapter 4](docs/ch4_2.png){: height="150" } 
+![Chapter 4](docs/ch4_1.png){: height="150" } 
 
-See [Publication](1_publications.md)
 
 ### Physics-informed Neural Networks
 #### A hybrid approach for solving the gravitational N-body problem with Artificial Neural Networks (2021-2022)
+The numerical integration of a system of _N_-bodies, the calculation of the mutual forces between bodies can drive the computation time. The computational complexity scales quadratically with the number of bodies. This means that simulating a large system is... expensive. 
+
+Machine Learning can help with that. If instead of calculating these forces, we use neural networks to predict the total acceleration, we can save a lot of computing power. Physics-aware neural networks incorporate some of our physics knowledge into the neural network. In this case, we choose Hamiltonian Neural Networks (HNNs) and apply them to the integration of a planetary system with a large number of asteroids. We find that there are advantages and challenges to the application of HNNs to complex cases such as the gravitational _N_-body problem.
 
 See [Publication](1_publications.md)
+
+![Chapter 2](docs/ch2_1.png){: height="150" } 
+![Chapter 2](docs/ch2_2.png){: height="150" } 
 
 ---
 # Optimization and Astrodynamics
