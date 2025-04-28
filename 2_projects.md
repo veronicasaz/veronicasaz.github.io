@@ -6,7 +6,7 @@ layout: post
 --- 
 # Computational Astrophysics and Machine Learning
 ---
-bb
+cc
 ### Reinforcement Learning
 #### Reinforcement Learning for the Determination of the Bridge Time Step in Cluster Dynamics Simulations
 The three-body problem is famously complex. As there is no analytical solution to predict the future state of the system, we rely on numerical simulations. These simulations are approximations, and their accuracy depends on certain simulation parameters. An important one is the time-step size. The smaller this value, the more the integration approximates a continuous solution, and the more accurate the simulation will be. However, reducing the time-step size leads to a larger computational cost of the simulation. 
