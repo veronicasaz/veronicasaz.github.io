@@ -27,7 +27,8 @@ If you find it interesting, take a look at the [Publication](1_publications.md).
 
 Also, the code and trained models are publicly available at [Github link](https://github.com/veronicasaz/RL_bridgedCluster).
 
-![Chapter 4](docs/chp4_2.png){: height="50" } 
+![Chapter 4](docs/chp4_2.png){: width="50" } 
+
 ![Chapter 4](docs/chp4_1.png){: height="150" } 
 
 
