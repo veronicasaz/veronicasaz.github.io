@@ -22,6 +22,8 @@ Individual Chapters:
 
 [Chapter Abstracts](docs/1_1_abstracts.md)
 
+If you prefer to look at nice schematics, here you can find the presentation slides for my thesis: [Slides](docs/ColloquiumSlides_v10.pdf)
+
 ---
 ## Publications
 ---
