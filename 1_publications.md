@@ -10,7 +10,8 @@ layout: post
 ---
 
 Ph.D. Thesis Chapters and Bibliography:
-- [Full thesis](thesis_docs/Thesis.pdf)
+- [Full thesis](thesis_docs/Thesis_VSazUlibarrena-compressed.pdf)
+- [Propositions](thesis_docs/Propositions.pdf)
 
 Individual Chapters:
 - [Chapter 1: Introduction](thesis_docs/Introduction.pdf)
