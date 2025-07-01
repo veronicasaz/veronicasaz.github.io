@@ -11,7 +11,7 @@ layout: post
 
 Ph.D. Thesis Chapters and Bibliography:
 - [Full thesis](thesis_docs/Thesis_VSazUlibarrena-compressed.pdf)
-- [Propositions](thesis_docs/PROPOSITIONS.pdf)
+- [Propositions](thesis_docs/propositions.pdf)
 
 Individual Chapters:
 - [Chapter 1: Introduction](thesis_docs/Introduction.pdf)
